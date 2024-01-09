@@ -1,0 +1,20 @@
+{
+  "name": "svgrCli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kayne-luo",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^20.10.8",
+    "@types/shelljs": "^0.8.15"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
