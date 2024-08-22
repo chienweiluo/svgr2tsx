@@ -19,9 +19,8 @@ module.exports = {
     jsx.closingElement.name.name = 'Svg'
     return typeScriptTpl.ast`
     import React from 'react'
-    import { SVG as Svg, SVGProps } from '@binance/uikit-core'
 
-    const ${componentName} = (props: SVGProps) => ${jsx}
+    const ${componentName} = (props: React.ComponentPropsWithRef('svg')) => ${jsx}
     export default ${componentName}
   `
   },
